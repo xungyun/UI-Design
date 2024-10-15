@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>LOST ARK</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div id="container">    
+    <header>
+      <div id="logo">
+        <a href="index.html">
+          <h1>LOST ARK</h1>
+        </a>
+      </div>
+      <nav>
+        <ul id="topMenu">
+          <li><a href="#">새소식  <span>▼</span></a>
+            <ul>
+              <li><a href="#">공지사항</a></li>
+              <li><a href="#">업데이트</a></li>
+              <li><a href="#">이 벤 트</a></li>
+            </ul>
+          </li>
+          <li><a href="#">게임정보  <span>▼</span></a>
+            <ul>
+              <li><a href="#">전투정보실</a></li>
+              <li><a href="#">세  계  관</a></li>
+              <li><a href="#">클  래  스</a></li>
+              <li><a href="#">콘  텐  츠</a></li>
+              <li><a href="#">월  드  맵</a></li>
+            </ul>
+          </li>
+          <li><a href="#">가이드  <span>▼</span></a>
+            <ul>
+              <li><a href="#">게임  가이드</a></li>
+              <li><a href="#">아이템  사전</a></li>
+              <li><a href="#">확률정보공개</a></li>
+            </ul>
+            <li><a href="#">커뮤니티  <span>▼</span></a>
+              <ul>
+                <li><a href="#">자유</a></li>
+                <li><a href="#">직업</a></li>
+                <li><a href="#">길드</a></li>
+                <li><a href="#">공략</a></li>
+                <li><a href="#">Q&A</a></li>
+                <li><a href="#">갤러리</a></li>
+              </ul>
+            <li><a href="#">고객센터  <span>▼</span></a>
+              <ul>
+                <li><a href="#">FAQ</a></li>
+                <li><a href="#">신고센터</a></li>
+                <li><a href="#">보안서비스</a></li>
+                <li><a href="#">클라이언트</a></li>
+              </ul>
+        </ul>
+      </nav>
+    </header>
+    <div id="slideShow">
+      <div id="slides">
+        <img src="images/에키드나.jpg" alt="">
+        <img src="images/카멘.jpg" alt="">
+        <img src="images/카단.jpg" alt="">
+        <img src="images/베히모스.jpg" alt="">
+        <img src="images/쿠르잔.jpg" alt="">
+        <button id="prev">&lang;</button>
+        <button id="next">&rang;</button>
+      </div>
+    </div>
+    <div id="contents">
+      <div id="tabMenu">
+        <input type="radio" id="tab1" name="tabs" checked>
+        <label for="tab1">공지사항</label>
+        <input type="radio" id="tab2" name="tabs">
+        <label for="tab2">이 벤 트</label>      
+        <input type="radio" id="tab3" name="tabs">
+        <label for="tab3">커뮤니티</label>
+        <div id="notice" class="tabContent">
+          <h2>공지사항 내용입니다.</h2>
+          <ul>            
+            <li>악성코드 감염 예방을 위한 보안 수칙 안내</li>
+            <li>모험가 여러분의 계정 보호를 위한 안내</li>
+            <li>클라이언트 패치 안내</li>
+            <li>업데이트 내역 안내</li>            
+            <li>로스트아크 임시 점검 완료 및 수정 사항 안내</li>
+          </ul>
+        </div>
+        <div id="gallery" class="tabContent">
+          <h2>이벤트 내용입니다.</h2>
+          <ul>
+            <li><img src="images/event-1.jpg"></li>
+            <li><img src="images/event-2.jpg"></li>
+            <li><img src="images/event-3.jpg"></li>
+            <li><img src="images/event-4.jpg"></li>
+            <li><img src="images/event-5.jpg"></li>
+            <li><img src="images/event-6.jpg"></li>                     
+          </ul>
+        </div>        
+      </div>
+      <div id="login">
+        <div id="login-content">
+          <label for="username">아이디</label>
+          <input type="text" id="username" name="username">
+          <br>
+          <label for="password">비밀번호</label>
+          <input type="password" id="password" name="password">
+          <br>
+          <input type="submit" value="로그인">
+
+          <div id="login-links">
+            <a href="#">아이디 찾기</a> |
+            <a href="#">비밀번호 찾기</a> |
+            <a href="#">회원가입</a>
+          </div>
+        </div>
+      </div>
+      <section id="download">
+        <div class="container">
+          <h2>로스트아크 다운로드</h2>
+          <a href="https://lostark.game.onstove.com/Download" class="btn">다운로드</a>
+        </div>
+      </section>
+    <footer>    
+      <div id="bottomMenu">
+        <ul>
+          <li><a href="#">회사소개</a></li>
+          <li><a href="#">이용약관</a></li>
+          <li><a href="#">개인정보처리방침</a></li>
+          <li><a href="#">운영정책</a></li>
+          <li><a href="#">이벤트&UGC규약</a></li>
+          <li><a href="#">청소년보호정책</a></li>
+          <li><a href="#">▶ 게임이용등급</a></li>
+          <li><a href="#">고객센터</a></li>
+        </ul>
+        <div id="sns">
+          <ul>
+            <li><a href="#"><img src="images/sns-1.png"></a></li>
+            <li><a href="#"><img src="images/sns-2.png"></a></li>
+            <li><a href="#"><img src="images/sns-3.png"></a></li>
+          </ul>
+        </div>
+      </div>
+      <div id="company">
+        <p>회사명. ㈜스마일게이트 알피지  Email : support@lostark.com</p> 
+        <p>전화번호 : +1-123-456-7890</p>
+      </div>     
+    </footer> 
+    <footer id="ft">
+      <div class="container1">
+        <p>&copy; 2024 로스트아크. All rights reserved.</p>
+      </div>
+    </footer> 
+  </div> 
+
+  <script src="js/slideshow.js"></script>
+</body>
+</html>
